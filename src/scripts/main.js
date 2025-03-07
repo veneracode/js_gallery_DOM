@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
           ? e.target.parentElement
           : e.target;
 
-      const nSrc = target.getAtribute('href');
+      const nSrc = target.getAttribute('href');
 
       if (nSrc) {
         mainImage.src = nSrc;
